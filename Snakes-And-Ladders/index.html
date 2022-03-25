@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <title>
+                Snakes and Ladder Game
+            </title>
+            <link rel="stylesheet" href="style.css">
+            <script src="app.js" defer>
+
+            </script>
+    </head>
+    <body onload="createBoard()">
+        <h1>4 Player Snakes and Ladder Game</h1>
+        <div class="handler">
+            <div class="container">
+                <div class="dice-wrapper">
+                    <img id="die">
+                </div>
+                    <div class="center">
+                        <p id="total"></p>
+                    </div>
+                    <button onclick="doIt()" id="b1">Player A's Turn</button>
+                    <button onclick="reload()" id="b1">Restart</button>
+                
+            </div>
+            
+            
+                    <div class="grid"> </div>
+                    <ul>
+                        <li>
+                            Player A <div id="p1">
+        
+                            </div>
+                        </li>
+                        <li>
+                            Player B<div id="p2">
+        
+                            </div>
+                        </li>
+                        <li>
+                            Player C <div id="p3">
+                            </div>
+                        </li>
+                        <li>
+                            Player D <div id="p4">
+        
+                            </div>
+                        </li>
+                </ul>
+                        
+                            
+    </div>
+    </body>
+</html>
